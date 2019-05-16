@@ -1,0 +1,18 @@
+.card-person {
+  width: 60%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 12px;
+  padding-bottom: 12px;
+  box-shadow: 0 2px 3px grey;
+}
+
+/*Resize the card width of the Person class*/
+@media (min-width: 500px) {
+  .Persion {
+    width: 450px;
+  }
+}
